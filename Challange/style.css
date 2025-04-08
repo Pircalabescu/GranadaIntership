@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.hero {
+    position:relative;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero figure{
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.hero figure img{
+    width: 100%;
+}
+
+
+.hero .text{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 15px;
+    color: rgb(125, 78, 13) ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .text h2{
+    font-size: 2rem;
+}

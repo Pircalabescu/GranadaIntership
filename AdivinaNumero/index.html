@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advina el Numero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Guess the Number !</h1>
+
+    <p>We have to select a number between 1 and 100.</p>
+    <p>Try to guess it in 10 attempts or less.</p>
+    <p>It will be shown if the number is bigger or smaller than the one we wrote.</p>
+
+    <div class="form">
+        <label for="guessField">Introduce the Number:</label>
+        <input type="Number" min="1" max="100" required id="guessField" class="guessField">
+
+        <input type="Submit" value="Submit" class="guessSubmit">
+    </div>
+
+    <div class="finalResult">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHigh"></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* Universal Selector */
+
+*{
+    background-color: rgb(120, 202, 157);
+    font-style: italic;
+}
+
+
+/* Elements' selectors */
+
+header{
+    background-color: rgb(254, 244, 228);
+    color:rgb(47, 83, 85);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    background-color: olive;
+    color: aliceblue;
+}
+
+
+/* Classes' selectors */
+
+.Subtitle{
+    background-color: darkolivegreen;
+    color: azure;
+}
+
+
+/* id selector */
+
+#Description {
+    background-color:antiquewhite;
+    color: teal;
+    font-size: 1.2em;
+}
+
+
+/*  */

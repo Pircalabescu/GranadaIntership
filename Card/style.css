@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    display: flex;
+}
+
+section .card{
+    background-color: rgb(202, 169, 135);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+section .card figure{
+    width: 100%;
+}
+
+section .card figure img{
+    width: 100%;
+}
+
+section .card h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+
+section .card p{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 0px;
+    margin: 10px 0px 5px 0px;
+}
+
+section .card p::first-letter{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
