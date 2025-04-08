@@ -1,2 +1,18 @@
 We are going to conneect Git with GitHub
 
+
+Inicializing local repository
+git init
+
+Adding all the files and folders to the local repository
+git add .
+
+Save in the history
+git commit -m "description "
+
+Uploud on GitHub (publish)
+git push origin main
+
+Sync the changes
+git pull origin main //Download from remote repository 
+git push origin main // Upload to the remote repository
